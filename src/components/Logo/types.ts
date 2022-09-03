@@ -5,7 +5,7 @@ type SizeProps = {
     fontSize: string,
 }
 
-export type Sizes = 'tiny' | 'small' | 'medium' | 'large'
+export type Sizes = 'tiny' | 'small' | 'medium' | 'large' | 'auto'
 
 export interface ILogo {
     border?: boolean,

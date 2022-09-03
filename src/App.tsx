@@ -1,11 +1,9 @@
 import React from 'react'
-import Logo from './components/Logo'
+import Home from './pages/Home'
 
 function App() {
   return (
-    <div>
-      <Logo border />
-    </div>
+    <Home />
   )
 }
 

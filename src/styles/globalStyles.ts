@@ -1,7 +1,14 @@
 import { createGlobalStyle } from 'styled-components'
 
+export const theme = {
+    title: '#6600FF',
+    bgSecondary: '#eaeaea',
+    bgPrimary: '#fafafa'
+}
+
 const GlobalStyle = createGlobalStyle`
     body {
+        background: ${theme.bgPrimary};
         margin: 0;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
             'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -14,9 +21,5 @@ const GlobalStyle = createGlobalStyle`
         font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
     }
 `
-
-export const theme = {
-    title: '#6600FF',
-}
 
 export default GlobalStyle

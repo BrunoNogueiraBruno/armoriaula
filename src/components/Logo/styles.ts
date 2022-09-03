@@ -6,6 +6,7 @@ const sizes = {
     small: { width: '100px', fontSize: '1.3em' },
     medium: { width: '180px', fontSize: '2.3em' },
     large: { width: '300px', fontSize: '4em' },
+    auto: { width: '100%', fontSize: '4em' },
 } as ISizes
 
 export const LogoContainer = styled.div`
